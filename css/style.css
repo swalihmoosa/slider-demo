@@ -1,0 +1,127 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+	background: transparent;
+	font-weight: normal;
+	text-decoration: none;
+	outline: none;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+ol, ul {
+	list-style: none;
+}
+del {
+	text-decoration: line-through;
+}
+body {
+	font-family:  Arial, Helvetica, sans-serif;
+	font-size: 17px;
+	color: #1C2C40;
+	overflow-x: hidden;
+	min-width: 320px;
+	font-weight: 400;
+	background: #474c50;
+}
+input,textarea,select{
+	font-family:  Arial, Helvetica, sans-serif;
+	font-weight: 400;
+}
+
+a{
+	color: #1C2C40;
+}
+a:hover,.submit:hover{
+	filter: alpha(opacity = 85);
+	-moz-opacity: 0.85;
+	-khtml-opacity: 0.85;
+	opacity: 0.85;
+}
+.thumb{
+	display: block;
+}
+.thumb img{
+	display: block;
+	width:100%;
+}
+p{
+	line-height:1.6em;
+	font-size: 16px;
+	font-family:  Arial;
+	font-weight: 400;
+}
+.hidden{
+	display:none;
+}
+.wrapper {
+	width: 90%;
+	margin: 0 auto;
+	max-width:1280px;
+}
+@font-face {
+    font-family: 'product_sansbold';
+    src: url('../fonts/product_sans_bold-webfont.woff2') format('woff2'),
+         url('../fonts/product_sans_bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'product_sansregular';
+    src: url('../fonts/product_sans_regular-webfont.woff2') format('woff2'),
+         url('../fonts/product_sans_regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+section#slider{
+	width: 100%;
+	background: #3da5e4;
+	margin-top: 40px;
+}
+section#slider ul.slider{
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+}
+section#slider ul li.list{
+	width: 30%;
+	margin: 100px 25px;
+	background: #fff;
+	align-items: center;
+	text-align: center;
+	padding: 50px 20px;
+	border-radius: 10px;
+}
+section#slider ul li.list div.image{
+	width: 50%;
+	margin: 0 auto 30px;
+}
+section#slider ul li.list div.image img{
+	width: 100%;
+	display: block;
+}
+section#slider ul li.list p{
+	font-weight: 700;
+	margin-bottom: 30px;
+	color: #9da5a8;
+}
+section#slider ul li.list div.bottom_image{
+	border-radius: 50%;
+	width: 25%;
+	margin: 0 auto 15px;
+}
+section#slider ul li.list div.bottom_image img{
+	width: 100%;
+	display: block;
+}
+section#slider ul li.list h3{
+	font-weight: 700;
+	margin-bottom: 10px;
+}
+section#slider ul li.list h4{
+	
+}

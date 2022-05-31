@@ -24,7 +24,7 @@ body {
 	overflow-x: hidden;
 	min-width: 320px;
 	font-weight: 400;
-	background: red;
+	background: #1C2C40;
 }
 input,textarea,select{
 	font-family:  Arial, Helvetica, sans-serif;
@@ -79,7 +79,7 @@ p{
 }
 section#slider{
 	width: 100%;
-	background: #3da5e4;
+	background: red;
 	margin-top: 40px;
 }
 section#slider ul.slider{
